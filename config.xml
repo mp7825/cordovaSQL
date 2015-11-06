@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.techxtrem.hashme"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>#me</name>
+
+    <description>
+      An example for Brodysoft SQLite Plugin.
+    </description>
+
+    <author href="https://techxtrem.com" email="info@techxtrem.com">
+      Hardeep Shoker
+    </author>
+
+    <!-- We'll include the Barcode plugin as an example -->
+    <gap:plugin name="com.brodysoft.sqliteplugin" version="1.0.6" />
+</widget>
